@@ -1,0 +1,24 @@
+{
+  "name": "check-ec2-event",
+  "version": "0.0.1",
+  "description": "This tool checks and notifies scheduled maintenance events of your AWS EC2 instance, and notify to your slack channel.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kitakitabauer/check-ec2-event.git"
+  },
+  "scripts": {
+    "local": "node driver.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.41.0",
+    "dotenv": "^4.0.0",
+    "lodash": "^4.17.2",
+    "slack-node": "^0.1.8"
+  },
+  "engine": {
+    "node": "6.10.0"
+  },
+  "author": "kitakitabauer <kitakita.d.kitakita@gmail.com (https://github.com/kitakitabauer)",
+  "license": "MIT"
+}
