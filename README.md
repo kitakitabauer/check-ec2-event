@@ -1,4 +1,5 @@
 # check-ec2-event
+[![npm version](https://badge.fury.io/js/check-ec2-event.svg)](https://badge.fury.io/js/check-ec2-event)
 ![](https://img.shields.io/badge/node.js-6.10%2B-blue.svg)
 
 ## Overview  
@@ -26,7 +27,6 @@ SLACK_CHANNEL = "slack channel that you want to notify"
 SLACK_ICON_EMOJI = "icon emoji of notification bot"
 SLACK_USERNAME = "user name of notification bot"
 ```
-
 2. Execute npm run.
 ```
 $ npm run local
@@ -37,7 +37,6 @@ $ npm run local
 ```
 $ ./zipDeploy.sh
 ```
-
 2. Run it from your AWS account or aws-cli.
 
 ## License
