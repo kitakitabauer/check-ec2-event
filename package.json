@@ -19,6 +19,13 @@
   "engine": {
     "node": "6.10.0"
   },
+  "keywords": [
+    "aws",
+    "lambda",
+    "ec2",
+    "node",
+    "slack"
+  ],
   "author": "kitakitabauer <kitakita.d.kitakita@gmail.com (https://github.com/kitakitabauer)",
   "license": "MIT"
 }
