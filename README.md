@@ -23,6 +23,7 @@ $ npm i
 1. Add your environment variables to .env file.
 ```
 REGION = "your AWS region"
+FUNCTION_NAME = "your AWS Lambda function name"
 WEBHOOK_URI = "your incoming webhook url of slack"
 SLACK_CHANNEL = "slack channel that you want to notify"
 SLACK_ICON_EMOJI = "icon emoji of notification bot"
@@ -34,11 +35,12 @@ $ npm run local
 ```
 
 ### Run on AWS Lambda
-1. It compiles and deployes scripts including node_modules in zip format, but aws-cli is required.
+1. Prepare an empty Lambda function in advance at your AWS console.
+2. It compiles and deployes scripts including node_modules in zip format, but aws-cli is required.
 ```
-$ ./zipDeploy.sh
+$ ./zipDeploy.sh [Lambda function name]
 ```
-2. Run it from your AWS account or aws-cli.
+3. Run it from your AWS account or aws-cli.
 
 ## License
 

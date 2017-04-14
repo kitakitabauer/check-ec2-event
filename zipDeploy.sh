@@ -10,12 +10,14 @@ function require {
     }
 }
 
-zip -r checkMaintenance.zip index.js node_modules
+funcName=$1
+
+zip -r ${funcName}.zip index.js node_modules
 
 # Check for AWS, AWS Command Line Interface
 require aws
 
-aws lambda update-function-code --function-name checkEC2Maintenance --zip-file fileb://checkMaintenance.zip
+aws lambda update-function-code --function-name ${funcName} --zip-file fileb://${funcName}.zip
 
-rm -f checkMaintenance.zip
+rm -f ${funcName}.zip
 

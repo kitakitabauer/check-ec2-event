@@ -6,7 +6,7 @@ const event = {
 
 // AWS Lambda's runtime information
 const context = {
-  functionName: 'checkEC2Maintenance',
+  functionName: process.env.FUNCTION_NAME,
   done: (err, message) => {
     console.log('done');
   }
