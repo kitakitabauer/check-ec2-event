@@ -1,16 +1,14 @@
 'use strict';
 
-const AWS = require('aws-sdk');
-
 require('dotenv').config();
 
+const AWS = require('aws-sdk');
 AWS.config.update({
   region: process.env.REGION,
 });
+const ec2 = new AWS.EC2({});
 
 const _ = require('lodash');
-
-const ec2 = new AWS.EC2({});
 
 const SlackNode = require('slack-node');
 const slack = new SlackNode();
