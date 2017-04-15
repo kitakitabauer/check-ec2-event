@@ -14,6 +14,11 @@ This tool checks scheduled maintenance events of your AWS EC2 instance, and noti
 
 ## Install
 ```
+$ npm i check-ec2-event
+$ cd node_modules/check-ec2-event
+```
+or
+```
 $ git clone git@github.com:kitakitabauer/check-ec2-event.git
 $ cd check-ec2-event
 $ npm i
