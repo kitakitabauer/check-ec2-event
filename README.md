@@ -1,6 +1,6 @@
 # check-ec2-event
 [![npm version](https://badge.fury.io/js/check-ec2-event.svg)](https://badge.fury.io/js/check-ec2-event)
-![](https://img.shields.io/badge/node.js-6.10%2B-blue.svg)
+![](https://img.shields.io/badge/node.js-8%2B-blue.svg)
 
 ## Overview  
 Tools of checking AWS EC2 maintenance event  
@@ -10,7 +10,7 @@ This tool checks scheduled maintenance events of your AWS EC2 instance, and noti
 ![](http://i.imgur.com/yzwntCf.png)
 
 ## Requirement
-- Node.js 6.10.0
+- Node.js 8.x
 
 ## Install
 ```

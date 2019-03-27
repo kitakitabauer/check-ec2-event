@@ -1,6 +1,6 @@
 {
   "name": "check-ec2-event",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "This tool checks and notifies scheduled maintenance events of your AWS EC2 instance, and notify to your slack channel.",
   "main": "index.js",
   "repository": {
@@ -17,7 +17,7 @@
     "slack-node": "^0.1.8"
   },
   "engine": {
-    "node": "6.10.0"
+    "node": "~8"
   },
   "keywords": [
     "aws",
